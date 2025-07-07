@@ -6,8 +6,9 @@ export const Card = styled.div`
   background-color: ${cores.preto};
   border-radius: 8px;
   padding: 8px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   position: relative; //n deixa q as informaçôes vazem
+  margin-right: 80px;
 
   ${TagContainer} {
     margin-right: 8px;

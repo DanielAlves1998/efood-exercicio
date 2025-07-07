@@ -17,7 +17,7 @@ export const Container = styled.section<Omit<Props, 'title' | 'food'>>`
 
 export const List = styled.ul`
   display: grid;
-  grid-template-columns: 1fr 1fr; //é para criar 4 colunas
+  grid-template-columns: 1fr 1fr; //é para criar 2 colunas
   column-gap: 24px; //dá um expaço entre as colunas
   margin-top: 40px;
 `
