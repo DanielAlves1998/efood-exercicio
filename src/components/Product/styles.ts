@@ -5,10 +5,11 @@ import { TagContainer } from '../Tag/styles'
 export const Card = styled.div`
   background-color: ${cores.preto};
   border-radius: 9px;
-  padding: 60px;
+  padding: 80px;
   margin-bottom: 50px;
   position: relative; //n deixa q as informaçôes vazem
-  margin-right: 80px;
+  margin-right: 130px;
+  margin-left: -120px;
 
   ${TagContainer} {
     margin-right: 8px;

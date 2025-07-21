@@ -12,6 +12,7 @@ export const Container = styled.section<Omit<Props, 'title' | 'food'>>`
   ${Card} {
     background-color: ${(props) =>
       props.background === 'black' ? cores.corDeFundoHome : cores.preto};
+    padding: 80px;
   }
 `
 
