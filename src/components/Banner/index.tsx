@@ -1,16 +1,20 @@
-import { Imagem, Titulo } from './styles'
+import { Imagem, ImagemEfood } from './styles'
 
-import bannerImg from '../../assets/images/suchi.png'
-import Tag from '../Tag'
+import bannerImg from '../../assets/images/VectorFundoCabecalho.png'
+import bannerImgEfood from '../../assets/images/logo.png'
 import Button from '../Button'
 
 const Banner = () => (
   <Imagem style={{ backgroundImage: `url(${bannerImg})` }}>
+    <div>
+      <ImagemEfood
+        style={{ backgroundImage: `url(${bannerImgEfood})` }}
+      ></ImagemEfood>
+    </div>
+    <div>
+      <p>Viva experiências gastronômicas no conforto da sua casa</p>
+    </div>
     <div className="container">
-      <Tag size="big">Destaque do dia</Tag>
-      <div>
-        <Titulo>La Dolce Vita Trattoria</Titulo>
-      </div>
       <Button type="link" to="/produto" title="Clique auq para pedir Agora">
         Peça Já o Seu!
       </Button>
